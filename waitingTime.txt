@@ -1,0 +1,19 @@
+Waiting Time:
+
+    Definition: The duration a process spends in the ready queue waiting for CPU execution.
+    Starts: Accumulates from the moment a process arrives in the system until it begins execution.
+    Impact: Directly affects system responsiveness and resource utilization efficiency.
+    Factors: Influenced by scheduling algorithms and process characteristics such as arrival time and burst time.
+    Measurement: Calculated as the difference between the time a process starts execution and its arrival time.
+    Importance: Longer waiting times increase resource wastage and delay process completion, impacting overall system performance.
+    Optimization: Efficient scheduling algorithms prioritize processes to minimize waiting times and improve system throughput.
+
+Turnaround Time:
+
+    Definition: Total time taken from the submission of a process to its completion, including waiting and execution times.
+    Comprehensive Measure: Reflects overall system responsiveness and efficiency in servicing processes.
+    Calculation: Difference between completion time and arrival time of a process.
+    Factors: Waiting time directly contributes to turnaround time, alongside actual execution time.
+    System Performance Indicator: Longer turnaround times indicate inefficient resource management and scheduling.
+    Optimization: Improved by reducing waiting times through effective scheduling strategies.
+    Objective: Minimize turnaround time to enhance user satisfaction and system efficiency.
